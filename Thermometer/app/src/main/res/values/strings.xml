@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Room Thermometer</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="celsius">°C</string>
+    <string name="fahrenheit">°F</string>
+    <string name="kelvin">°K</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="prValue">No sensor!</string>
+    <string name="humValue">No sensor!</string>
+    <string name="scale">Scale</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_instructions">Instructions</string>
+    <string name="action_info">About the app</string>
+    <string name="action_exit">Exit app</string>
+    <string name="action_facts_temperature">Facts about temperature</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="action_share_image">Share!</string>
+    <string name="action_share_report">Share the room temperature\'s report</string>
+</resources>
