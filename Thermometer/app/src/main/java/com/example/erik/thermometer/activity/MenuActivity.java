@@ -1,4 +1,4 @@
-package com.example.erik.thermometer;
+package com.example.erik.thermometer.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
@@ -6,6 +6,10 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.WindowManager;
+
+import com.example.erik.thermometer.view.MenuImageView;
+import com.example.erik.thermometer.view.MenuTextView;
+import com.example.erik.thermometer.R;
 
 
 public class MenuActivity extends ActionBarActivity {

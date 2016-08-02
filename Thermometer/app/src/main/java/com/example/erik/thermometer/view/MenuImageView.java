@@ -1,4 +1,4 @@
-package com.example.erik.thermometer;
+package com.example.erik.thermometer.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -7,6 +7,8 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.example.erik.thermometer.R;
 
 import java.util.ArrayList;
 

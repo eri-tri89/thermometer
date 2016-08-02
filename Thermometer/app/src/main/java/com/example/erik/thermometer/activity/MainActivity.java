@@ -1,4 +1,4 @@
-package com.example.erik.thermometer;
+package com.example.erik.thermometer.activity;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -22,6 +22,11 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
+import com.example.erik.thermometer.R;
+import com.example.erik.thermometer.model.Temperature;
+import com.example.erik.thermometer.view.TemperatureView;
+import com.example.erik.thermometer.view.ThermometerView;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -32,7 +37,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-//A custom comment
+
 public class MainActivity extends ActionBarActivity implements SensorEventListener {
 
     public Temperature temperature;

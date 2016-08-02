@@ -1,4 +1,4 @@
-package com.example.erik.thermometer;
+package com.example.erik.thermometer.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -7,6 +7,8 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.RadioButton;
+
+import com.example.erik.thermometer.model.Temperature;
 
 /**
  * Created by Erik on 2015-03-31.

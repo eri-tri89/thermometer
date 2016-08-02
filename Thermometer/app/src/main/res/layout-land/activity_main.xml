@@ -3,7 +3,7 @@
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.mydomain.file_provider.activities.MainActivity"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.example.erik.thermometer.activity.MainActivity"
     android:background="#ff202020"
     android:id="@+id/layout">
     <!--.MainActivity-->
@@ -21,7 +21,7 @@
             android:gravity="left"
             android:layout_gravity="left">
 
-            <com.example.erik.thermometer.ThermometerView
+            <com.example.erik.thermometer.view.ThermometerView
                 android:layout_width="300dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/Thermoview" />
@@ -46,7 +46,7 @@
             android:gravity="center"
             android:layout_gravity="right">
 
-            <com.example.erik.thermometer.TemperatureView
+            <com.example.erik.thermometer.view.TemperatureView
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:id="@+id/Tempview"

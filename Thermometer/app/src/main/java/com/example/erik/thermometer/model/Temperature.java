@@ -1,4 +1,4 @@
-package com.example.erik.thermometer;
+package com.example.erik.thermometer.model;
 
 /**
  * Created by Erik on 2015-03-30.

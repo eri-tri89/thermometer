@@ -1,11 +1,11 @@
-package com.example.erik.thermometer.tests;
+package com.example.erik.thermometer.activity;
 
 import android.test.ActivityInstrumentationTestCase2;
 
-import com.example.erik.thermometer.MainActivity;
-import com.example.erik.thermometer.Temperature;
-import com.example.erik.thermometer.TemperatureView;
-import com.example.erik.thermometer.ThermometerView;
+import com.example.erik.thermometer.activity.MainActivity;
+import com.example.erik.thermometer.model.Temperature;
+import com.example.erik.thermometer.view.TemperatureView;
+import com.example.erik.thermometer.view.ThermometerView;
 
 import java.io.File;
 import java.util.ArrayList;
